@@ -1,0 +1,22 @@
+curl -X POST -H "Content-Type: application/json" -d '{ 
+    "get_started":{
+        "payload":"welcome to botstore"
+    }
+    }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token= EAAYMPV3M3ngBANTmZAZBsL3e0V8qzKwoKHI09e6ZCCsVgObwz5Xj3mGKx8nHnSOnDLA0YkSFZAl4F6OAaVOs9vVZAZAg0OHFDW861cAhVuc5F1HP3g6uZClCLlRZALzZAlp9Jn67HZCEXtrBu8ZBKeVIEmCZA1EWYbRIFkyaKZBaRQeIvjChorKRuH2Fs"
+
+
+curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=EAAYMPV3M3ngBANTmZAZBsL3e0V8qzKwoKHI09e6ZCCsVgObwz5Xj3mGKx8nHnSOnDLA0YkSFZAl4F6OAaVOs9vVZAZAg0OHFDW861cAhVuc5F1HP3g6uZClCLlRZALzZAlp9Jn67HZCEXtrBu8ZBKeVIEmCZA1EWYbRIFkyaKZBaRQeIvjChorKRuH2Fs"
+
+curl -X POST -H "Content-Type: application/json" -d '{
+  "setting_type":"call_to_actions",
+  "thread_state":"new_thread",
+  "call_to_actions":[
+    {
+      "payload":"Greeting"
+    }
+  ]
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAYMPV3M3ngBANTmZAZBsL3e0V8qzKwoKHI09e6ZCCsVgObwz5Xj3mGKx8nHnSOnDLA0YkSFZAl4F6OAaVOs9vVZAZAg0OHFDW861cAhVuc5F1HP3g6uZClCLlRZALzZAlp9Jn67HZCEXtrBu8ZBKeVIEmCZA1EWYbRIFkyaKZBaRQeIvjChorKRuH2Fs"
+
+
+var db = mongoose.connect(process.env.MONGODB_URI);
+var Bot = require("./models/bots"); 
