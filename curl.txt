@@ -2,10 +2,10 @@ curl -X POST -H "Content-Type: application/json" -d '{
     "get_started":{
         "payload":"welcome to gegoh's fb node bot"
     }
-    }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token= EAAYMPV3M3ngBANTmZAZBsL3e0V8qzKwoKHI09e6ZCCsVgObwz5Xj3mGKx8nHnSOnDLA0YkSFZAl4F6OAaVOs9vVZAZAg0OHFDW861cAhVuc5F1HP3g6uZClCLlRZALzZAlp9Jn67HZCEXtrBu8ZBKeVIEmCZA1EWYbRIFkyaKZBaRQeIvjChorKRuH2Fs"
+    }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token= EAAaSnWTIaKUBAL7OfLdoWbjZBjrDKvlSIo92dOiZASoZAcHnHZCw27tn5klSVFw4XHzO0aKDbi2RntZAOJ3P5meNRzMj7ny53aIZC6NHkM4bh4Csq8M4ceJBqNMg6hsxJ2q9CdnSFLPuwNv8FQAk5EgrfZAsZBGYCNFxcr8d6AY66QZDZD"
 
 
-curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=EAAYMPV3M3ngBANTmZAZBsL3e0V8qzKwoKHI09e6ZCCsVgObwz5Xj3mGKx8nHnSOnDLA0YkSFZAl4F6OAaVOs9vVZAZAg0OHFDW861cAhVuc5F1HP3g6uZClCLlRZALzZAlp9Jn67HZCEXtrBu8ZBKeVIEmCZA1EWYbRIFkyaKZBaRQeIvjChorKRuH2Fs"
+curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=EAAaSnWTIaKUBAL7OfLdoWbjZBjrDKvlSIo92dOiZASoZAcHnHZCw27tn5klSVFw4XHzO0aKDbi2RntZAOJ3P5meNRzMj7ny53aIZC6NHkM4bh4Csq8M4ceJBqNMg6hsxJ2q9CdnSFLPuwNv8FQAk5EgrfZAsZBGYCNFxcr8d6AY66QZDZD"
 
 curl -X POST -H "Content-Type: application/json" -d '{
   "setting_type":"call_to_actions",
@@ -15,7 +15,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
       "payload":"Greeting"
     }
   ]
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAYMPV3M3ngBANTmZAZBsL3e0V8qzKwoKHI09e6ZCCsVgObwz5Xj3mGKx8nHnSOnDLA0YkSFZAl4F6OAaVOs9vVZAZAg0OHFDW861cAhVuc5F1HP3g6uZClCLlRZALzZAlp9Jn67HZCEXtrBu8ZBKeVIEmCZA1EWYbRIFkyaKZBaRQeIvjChorKRuH2Fs"
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAaSnWTIaKUBAL7OfLdoWbjZBjrDKvlSIo92dOiZASoZAcHnHZCw27tn5klSVFw4XHzO0aKDbi2RntZAOJ3P5meNRzMj7ny53aIZC6NHkM4bh4Csq8M4ceJBqNMg6hsxJ2q9CdnSFLPuwNv8FQAk5EgrfZAsZBGYCNFxcr8d6AY66QZDZD"
 
 
 var db = mongoose.connect(process.env.MONGODB_URI);
