@@ -1,6 +1,6 @@
 curl -X POST -H "Content-Type: application/json" -d '{ 
     "get_started":{
-        "payload":"welcome to botstore"
+        "payload":"welcome to gegoh's fb node bot"
     }
     }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token= EAAYMPV3M3ngBANTmZAZBsL3e0V8qzKwoKHI09e6ZCCsVgObwz5Xj3mGKx8nHnSOnDLA0YkSFZAl4F6OAaVOs9vVZAZAg0OHFDW861cAhVuc5F1HP3g6uZClCLlRZALzZAlp9Jn67HZCEXtrBu8ZBKeVIEmCZA1EWYbRIFkyaKZBaRQeIvjChorKRuH2Fs"
 
