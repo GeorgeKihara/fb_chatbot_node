@@ -14,7 +14,7 @@ app.listen((process.env.PORT || 3000));
 // Server frontpage
 // Server index page
 app.get("/", function (req, res) {
-  res.send("Deployed!");
+  res.send("Welcome to a basic facebook bot made using node js!");
 });
 
 // Facebook Webhook
